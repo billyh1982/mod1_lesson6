@@ -1,0 +1,9 @@
+great_books = []
+first_book= input("enter first great book.")
+second_book= input("enter the second great book.")
+third_book= input("enter the third greatest book.")
+great_books.append(first_book)
+great_books.append(second_book)
+great_books.append(third_book)
+great_books.sort()
+print (great_books)
